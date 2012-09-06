@@ -1,0 +1,370 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D49E2D7F15E6AE1F0068A408 /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = D49E2D7E15E6AE1F0068A408 /* GCDAsyncSocket.m */; };
+		D49E2D8D15E7213A0068A408 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D49E2D8C15E721390068A408 /* CFNetwork.framework */; };
+		D49E2D8F15E721730068A408 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D49E2D8E15E721730068A408 /* Security.framework */; };
+		D49E2D9215E724610068A408 /* IRNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = D49E2D9115E724610068A408 /* IRNetwork.m */; };
+		D49E2DA115E9D4E50068A408 /* MLX90620Math.m in Sources */ = {isa = PBXBuildFile; fileRef = D49E2DA015E9D4E50068A408 /* MLX90620Math.m */; };
+		D4F7A4BA15E019B80018D76B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4F7A4B915E019B80018D76B /* UIKit.framework */; };
+		D4F7A4BC15E019B80018D76B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4F7A4BB15E019B80018D76B /* Foundation.framework */; };
+		D4F7A4BE15E019B80018D76B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4F7A4BD15E019B80018D76B /* CoreGraphics.framework */; };
+		D4F7A4C415E019B80018D76B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D4F7A4C215E019B80018D76B /* InfoPlist.strings */; };
+		D4F7A4C615E019B80018D76B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D4F7A4C515E019B80018D76B /* main.m */; };
+		D4F7A4CA15E019B80018D76B /* IRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D4F7A4C915E019B80018D76B /* IRAppDelegate.m */; };
+		D4F7A4CD15E019B80018D76B /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4F7A4CB15E019B80018D76B /* MainStoryboard_iPhone.storyboard */; };
+		D4F7A4D015E019B80018D76B /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4F7A4CE15E019B80018D76B /* MainStoryboard_iPad.storyboard */; };
+		D4F7A4D315E019B80018D76B /* IRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4F7A4D215E019B80018D76B /* IRViewController.m */; };
+		D4F7A4DA15E019ED0018D76B /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4F7A4D915E019ED0018D76B /* CoreMedia.framework */; };
+		D4F7A4DD15E01AAF0018D76B /* ScreenCapture.m in Sources */ = {isa = PBXBuildFile; fileRef = D4F7A4DC15E01AAF0018D76B /* ScreenCapture.m */; };
+		D4F7A4DF15E01DA10018D76B /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4F7A4DE15E01DA10018D76B /* CoreVideo.framework */; };
+		D4F7A4E115E01DA90018D76B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4F7A4E015E01DA90018D76B /* QuartzCore.framework */; };
+		D4F7A4E315E01DB90018D76B /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4F7A4E215E01DB90018D76B /* AVFoundation.framework */; };
+		D4F7A4EC15E05A6F0018D76B /* IRViewOverlay.m in Sources */ = {isa = PBXBuildFile; fileRef = D4F7A4EB15E05A6F0018D76B /* IRViewOverlay.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D49E2D7D15E6AE1F0068A408 /* GCDAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncSocket.h; sourceTree = "<group>"; };
+		D49E2D7E15E6AE1F0068A408 /* GCDAsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncSocket.m; sourceTree = "<group>"; };
+		D49E2D8C15E721390068A408 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		D49E2D8E15E721730068A408 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		D49E2D9015E724610068A408 /* IRNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IRNetwork.h; sourceTree = "<group>"; };
+		D49E2D9115E724610068A408 /* IRNetwork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IRNetwork.m; sourceTree = "<group>"; };
+		D49E2D9F15E9D4E40068A408 /* MLX90620Math.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLX90620Math.h; sourceTree = "<group>"; };
+		D49E2DA015E9D4E50068A408 /* MLX90620Math.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLX90620Math.m; sourceTree = "<group>"; };
+		D4F7A4B515E019B80018D76B /* IRPhoneCamera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IRPhoneCamera.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4F7A4B915E019B80018D76B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D4F7A4BB15E019B80018D76B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D4F7A4BD15E019B80018D76B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D4F7A4C115E019B80018D76B /* IRPhoneCamera-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "IRPhoneCamera-Info.plist"; sourceTree = "<group>"; };
+		D4F7A4C315E019B80018D76B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D4F7A4C515E019B80018D76B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D4F7A4C715E019B80018D76B /* IRPhoneCamera-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IRPhoneCamera-Prefix.pch"; sourceTree = "<group>"; };
+		D4F7A4C815E019B80018D76B /* IRAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IRAppDelegate.h; sourceTree = "<group>"; };
+		D4F7A4C915E019B80018D76B /* IRAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IRAppDelegate.m; sourceTree = "<group>"; };
+		D4F7A4CC15E019B80018D76B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		D4F7A4CF15E019B80018D76B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		D4F7A4D115E019B80018D76B /* IRViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IRViewController.h; sourceTree = "<group>"; };
+		D4F7A4D215E019B80018D76B /* IRViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IRViewController.m; sourceTree = "<group>"; };
+		D4F7A4D915E019ED0018D76B /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		D4F7A4DB15E01AAF0018D76B /* ScreenCapture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScreenCapture.h; sourceTree = "<group>"; };
+		D4F7A4DC15E01AAF0018D76B /* ScreenCapture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScreenCapture.m; sourceTree = "<group>"; };
+		D4F7A4DE15E01DA10018D76B /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		D4F7A4E015E01DA90018D76B /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		D4F7A4E215E01DB90018D76B /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		D4F7A4EA15E05A6F0018D76B /* IRViewOverlay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IRViewOverlay.h; sourceTree = "<group>"; };
+		D4F7A4EB15E05A6F0018D76B /* IRViewOverlay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IRViewOverlay.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D4F7A4B215E019B80018D76B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D49E2D8F15E721730068A408 /* Security.framework in Frameworks */,
+				D49E2D8D15E7213A0068A408 /* CFNetwork.framework in Frameworks */,
+				D4F7A4E315E01DB90018D76B /* AVFoundation.framework in Frameworks */,
+				D4F7A4E115E01DA90018D76B /* QuartzCore.framework in Frameworks */,
+				D4F7A4DF15E01DA10018D76B /* CoreVideo.framework in Frameworks */,
+				D4F7A4DA15E019ED0018D76B /* CoreMedia.framework in Frameworks */,
+				D4F7A4BA15E019B80018D76B /* UIKit.framework in Frameworks */,
+				D4F7A4BC15E019B80018D76B /* Foundation.framework in Frameworks */,
+				D4F7A4BE15E019B80018D76B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D49E2D7B15E6ADEB0068A408 /* tcp */ = {
+			isa = PBXGroup;
+			children = (
+				D49E2D7D15E6AE1F0068A408 /* GCDAsyncSocket.h */,
+				D49E2D7E15E6AE1F0068A408 /* GCDAsyncSocket.m */,
+			);
+			name = tcp;
+			sourceTree = "<group>";
+		};
+		D4F7A4AA15E019B80018D76B = {
+			isa = PBXGroup;
+			children = (
+				D49E2D7B15E6ADEB0068A408 /* tcp */,
+				D4F7A4BF15E019B80018D76B /* IRPhoneCamera */,
+				D4F7A4B815E019B80018D76B /* Frameworks */,
+				D4F7A4B615E019B80018D76B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D4F7A4B615E019B80018D76B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D4F7A4B515E019B80018D76B /* IRPhoneCamera.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D4F7A4B815E019B80018D76B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D49E2D8C15E721390068A408 /* CFNetwork.framework */,
+				D49E2D8E15E721730068A408 /* Security.framework */,
+				D4F7A4E215E01DB90018D76B /* AVFoundation.framework */,
+				D4F7A4E015E01DA90018D76B /* QuartzCore.framework */,
+				D4F7A4DE15E01DA10018D76B /* CoreVideo.framework */,
+				D4F7A4D915E019ED0018D76B /* CoreMedia.framework */,
+				D4F7A4B915E019B80018D76B /* UIKit.framework */,
+				D4F7A4BB15E019B80018D76B /* Foundation.framework */,
+				D4F7A4BD15E019B80018D76B /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D4F7A4BF15E019B80018D76B /* IRPhoneCamera */ = {
+			isa = PBXGroup;
+			children = (
+				D49E2D9015E724610068A408 /* IRNetwork.h */,
+				D49E2D9115E724610068A408 /* IRNetwork.m */,
+				D4F7A4EA15E05A6F0018D76B /* IRViewOverlay.h */,
+				D4F7A4EB15E05A6F0018D76B /* IRViewOverlay.m */,
+				D4F7A4DB15E01AAF0018D76B /* ScreenCapture.h */,
+				D4F7A4DC15E01AAF0018D76B /* ScreenCapture.m */,
+				D4F7A4C815E019B80018D76B /* IRAppDelegate.h */,
+				D4F7A4C915E019B80018D76B /* IRAppDelegate.m */,
+				D4F7A4CB15E019B80018D76B /* MainStoryboard_iPhone.storyboard */,
+				D4F7A4CE15E019B80018D76B /* MainStoryboard_iPad.storyboard */,
+				D4F7A4D115E019B80018D76B /* IRViewController.h */,
+				D4F7A4D215E019B80018D76B /* IRViewController.m */,
+				D49E2D9F15E9D4E40068A408 /* MLX90620Math.h */,
+				D49E2DA015E9D4E50068A408 /* MLX90620Math.m */,
+				D4F7A4C015E019B80018D76B /* Supporting Files */,
+			);
+			path = IRPhoneCamera;
+			sourceTree = "<group>";
+		};
+		D4F7A4C015E019B80018D76B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D4F7A4C115E019B80018D76B /* IRPhoneCamera-Info.plist */,
+				D4F7A4C215E019B80018D76B /* InfoPlist.strings */,
+				D4F7A4C515E019B80018D76B /* main.m */,
+				D4F7A4C715E019B80018D76B /* IRPhoneCamera-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D4F7A4B415E019B80018D76B /* IRPhoneCamera */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4F7A4D615E019B80018D76B /* Build configuration list for PBXNativeTarget "IRPhoneCamera" */;
+			buildPhases = (
+				D4F7A4B115E019B80018D76B /* Sources */,
+				D4F7A4B215E019B80018D76B /* Frameworks */,
+				D4F7A4B315E019B80018D76B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IRPhoneCamera;
+			productName = IRPhoneCamera;
+			productReference = D4F7A4B515E019B80018D76B /* IRPhoneCamera.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D4F7A4AC15E019B80018D76B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = IR;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "RH Workshop";
+			};
+			buildConfigurationList = D4F7A4AF15E019B80018D76B /* Build configuration list for PBXProject "IRPhoneCamera" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D4F7A4AA15E019B80018D76B;
+			productRefGroup = D4F7A4B615E019B80018D76B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D4F7A4B415E019B80018D76B /* IRPhoneCamera */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D4F7A4B315E019B80018D76B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4F7A4C415E019B80018D76B /* InfoPlist.strings in Resources */,
+				D4F7A4CD15E019B80018D76B /* MainStoryboard_iPhone.storyboard in Resources */,
+				D4F7A4D015E019B80018D76B /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D4F7A4B115E019B80018D76B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4F7A4C615E019B80018D76B /* main.m in Sources */,
+				D4F7A4CA15E019B80018D76B /* IRAppDelegate.m in Sources */,
+				D4F7A4D315E019B80018D76B /* IRViewController.m in Sources */,
+				D4F7A4DD15E01AAF0018D76B /* ScreenCapture.m in Sources */,
+				D4F7A4EC15E05A6F0018D76B /* IRViewOverlay.m in Sources */,
+				D49E2D7F15E6AE1F0068A408 /* GCDAsyncSocket.m in Sources */,
+				D49E2D9215E724610068A408 /* IRNetwork.m in Sources */,
+				D49E2DA115E9D4E50068A408 /* MLX90620Math.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D4F7A4C215E019B80018D76B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4F7A4C315E019B80018D76B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D4F7A4CB15E019B80018D76B /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4F7A4CC15E019B80018D76B /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		D4F7A4CE15E019B80018D76B /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4F7A4CF15E019B80018D76B /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D4F7A4D415E019B80018D76B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				STRIP_INSTALLED_PRODUCT = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D4F7A4D515E019B80018D76B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				STRIP_INSTALLED_PRODUCT = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D4F7A4D715E019B80018D76B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IRPhoneCamera/IRPhoneCamera-Prefix.pch";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INFOPLIST_FILE = "IRPhoneCamera/IRPhoneCamera-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D4F7A4D815E019B80018D76B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IRPhoneCamera/IRPhoneCamera-Prefix.pch";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INFOPLIST_FILE = "IRPhoneCamera/IRPhoneCamera-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D4F7A4AF15E019B80018D76B /* Build configuration list for PBXProject "IRPhoneCamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4F7A4D415E019B80018D76B /* Debug */,
+				D4F7A4D515E019B80018D76B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4F7A4D615E019B80018D76B /* Build configuration list for PBXNativeTarget "IRPhoneCamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4F7A4D715E019B80018D76B /* Debug */,
+				D4F7A4D815E019B80018D76B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D4F7A4AC15E019B80018D76B /* Project object */;
+}
