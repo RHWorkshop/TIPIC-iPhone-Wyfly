@@ -1,0 +1,8 @@
+Code for camera capture by John Carter http://www.jellyfilledstudios.com/
+GCDAsyncSocket by Robbie Hanson http://deusty.blogspot.com/
+
+---------
+Config
+---------
+For now you need to connect the arduino Serial Console to a computer to find out the wireless IP that is assigned to the WiFly. Once you have that update the HOST1 IP address def in IRViewController.m. 
+
